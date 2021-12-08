@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ContainerElement from './components/ContainerElement';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="main">
+      <div>
+        <ContainerElement containerId="test1" />
+      </div>
+      <div>
+        <ContainerElement containerId="test2" />
+      </div>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -3,7 +3,6 @@
   height: 100vh;
   position: relative;
   background-color: pink;
-  margin: 0 auto;
   padding: 0 10px;
 }
 .header {
@@ -35,4 +34,7 @@
 .active{
   color: blueviolet; 
   border-bottom: 1px solid blueviolet;
+}
+.element:last-child{
+  padding-bottom: 800px;
 }
